@@ -25,8 +25,6 @@ def clienteNormal(total):
         total = total - (total*.15)
     return total, descuento
         
-
-
 if (tipoSilla == "b"):
     total = cantidadSillas * basica
 elif (tipoSilla == "e"):
